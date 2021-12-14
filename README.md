@@ -1,2 +1,2 @@
 # CC-CW4-YR1
-CW4 for Computing Fundamentals webpage
+CompSci Year 1 Computing Fundamentals Coursework 2: Skills Audit
