@@ -1,0 +1,127 @@
+* {
+    margin-top: 0;
+    background-color: #101827;
+    color:white;
+}
+
+b {
+    font-weight: 700;
+}
+
+h1 {
+    font-family: 'DM Serif Display', sans-serif;
+    font-weight: normal;
+    font-size: 3.5em;
+    color: #01FFC5;
+}
+
+h2 {
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.8em;
+    margin-left: 10px;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6em;
+    font-weight: 400;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.05em;
+    font-weight: 300;
+    text-align: right;
+    margin-right: 10px
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+a:visited {
+    text-decoration: none;
+  }
+  
+a:hover {
+    text-decoration: none;
+}
+  
+a:active {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    padding: 0;
+    overflow-wrap: break-word;
+}
+
+.title-box {
+    padding-top: 150px;
+    text-align: center;
+    padding-bottom: 120px;
+}
+
+.article {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.left-accent {
+    border-left: 5px solid #01FFC5;
+}
+
+.right-accent {
+    border-right: 3px solid #01FFC5;
+}
+.top-accent {
+    border-top: 3px solid #01FFC5;
+}
+
+.hover-animation {
+    padding: 8px;
+    display: inline-block;
+    position: relative;
+    color: white;
+  }
+  
+.hover-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #01FFC5;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+.hover-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
